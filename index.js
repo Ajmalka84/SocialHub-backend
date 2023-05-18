@@ -24,11 +24,13 @@ mongoose.connect(
 );
 
 app.use(
-  cors({
-    origin: ["http://localhost:3000" , "https://main.d3vbu76p2zy0td.amplifyapp.com"],
+  cors(
+    {
+    origin: ["http://localhost:3000" , "https://main.d3vbu76p2zy0td.amplifyapp.com" , "http://44.207.4.24/"],
     // methods: ["GET", "POST" , "PUT" , "DELETE"],
     credentials: true, 
-  })
+  }
+  )
 );
 
 // app.use(cors({origin: '*'}));
