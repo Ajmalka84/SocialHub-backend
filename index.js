@@ -26,7 +26,7 @@ mongoose.connect(
 app.use(
   cors(
     {
-    origin: ["http://localhost:3000" , "https://main.d3vbu76p2zy0td.amplifyapp.com" , "http://44.207.4.24/"],
+    origin: ["http://localhost:3000" , "https://main.d3lbo9tt472bnp.amplifyapp.com" , "http://54.172.139.238/"],
     // methods: ["GET", "POST" , "PUT" , "DELETE"],
     credentials: true, 
   }
